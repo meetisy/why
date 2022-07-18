@@ -26,7 +26,8 @@ class QuestionPageState extends State<QuestionPage> {
                 child: new Row(
                   children: <Widget>[
                     new Container(
-                      child: new FlatButton(onPressed: (){}, child: new Text("物理学"), color: GlobalConfig.searchBackgroundColor),
+                      child: new FlatButton(
+                          onPressed: (){}, child: new Text("物理学"), color: GlobalConfig.searchBackgroundColor),
                       height: 30.0,
                       margin: const EdgeInsets.only(right: 8.0)
                     ),

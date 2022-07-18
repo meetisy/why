@@ -39,19 +39,12 @@ class HotState extends State<Hot>{
                           child: new Text(
                             question.order,
                             style: new TextStyle(
-                                color: question.order.compareTo("03") <= 0 ? Colors.red : Colors.yellow,
+                                color: question.order.compareTo("03") <= 0 ? Colors.red : Colors.orangeAccent,
                                 fontSize: 18.0
                             )
                           ),
                           alignment: Alignment.topLeft,
                         ),
-                        question.rise != null ?
-                        new Row(
-                          children: <Widget>[
-                            new Icon(Icons.arrow_upward, color: Colors.red, size: 10.0,),
-                            new Text(question.rise!, style: new TextStyle(color: Colors.red, fontSize: 10.0),)
-                          ],
-                        ) : new Container()
                       ],
                     )
                 ),
