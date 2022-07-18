@@ -13,7 +13,7 @@ class SearchPageState extends State<SearchPage> {
       child: new Row(
         children: <Widget>[
           new Container(
-            child: new FlatButton.icon(
+            child: new TextButton.icon(
               onPressed: (){
                 Navigator.of(context).pop();
               },
@@ -60,7 +60,7 @@ class SearchPageState extends State<SearchPage> {
                   children: <Widget>[
                     new Container(
                       child: new Chip(
-                        label: new FlatButton(onPressed: (){}, child: new Text("汽车关税下调",style: new TextStyle(color: GlobalConfig.fontColor),)),
+                        label: new TextButton(onPressed: (){}, child: new Text("汽车关税下调",style: new TextStyle(color: GlobalConfig.fontColor),)),
                         backgroundColor: GlobalConfig.dark == true ? Colors.white10 : Colors.black12,
                       ),
                       margin: const EdgeInsets.only(left: 16.0, bottom: 16.0),
@@ -68,7 +68,7 @@ class SearchPageState extends State<SearchPage> {
                     ),
                     new Container(
                       child: new Chip(
-                        label: new FlatButton(onPressed: (){}, child: new Text("李彦宏传闻辟谣",style: new TextStyle(color: GlobalConfig.fontColor))),
+                        label: new TextButton(onPressed: (){}, child: new Text("李彦宏传闻辟谣",style: new TextStyle(color: GlobalConfig.fontColor))),
                         backgroundColor: GlobalConfig.dark == true ? Colors.white10 : Colors.black12,
                       ),
                       margin: const EdgeInsets.only(left: 16.0, bottom: 16.0),
@@ -80,7 +80,7 @@ class SearchPageState extends State<SearchPage> {
                   children: <Widget>[
                     new Container(
                       child: new Chip(
-                        label: new FlatButton(onPressed: (){}, child: new Text("小米8",style: new TextStyle(color: GlobalConfig.fontColor))),
+                        label: new TextButton(onPressed: (){}, child: new Text("小米8",style: new TextStyle(color: GlobalConfig.fontColor))),
                         backgroundColor: GlobalConfig.dark == true ? Colors.white10 : Colors.black12,
                       ),
                       margin: const EdgeInsets.only(left: 16.0, bottom: 16.0),
@@ -88,7 +88,7 @@ class SearchPageState extends State<SearchPage> {
                     ),
                     new Container(
                       child: new Chip(
-                        label: new FlatButton(onPressed: (){}, child: new Text("超时空同居",style: new TextStyle(color: GlobalConfig.fontColor))),
+                        label: new TextButton(onPressed: (){}, child: new Text("超时空同居",style: new TextStyle(color: GlobalConfig.fontColor))),
                         backgroundColor: GlobalConfig.dark == true ? Colors.white10 : Colors.black12,
                       ),
                       margin: const EdgeInsets.only(left: 16.0, bottom: 16.0),

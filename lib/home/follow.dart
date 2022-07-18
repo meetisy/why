@@ -126,7 +126,7 @@ class _FollowState extends State<Follow> {
     return new Container(
       margin: const EdgeInsets.only(top: 5.0, bottom: 5.0),
       color: GlobalConfig.cardBackgroundColor,
-      child: new FlatButton(
+      child: new TextButton(
         onPressed: (){},
         child: new Column(
           children: <Widget>[

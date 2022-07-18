@@ -14,7 +14,7 @@ class _MyPageState extends State<MyPage> {
 
   Widget barSearch() {
     return new Container(
-        child: new FlatButton(
+        child: new TextButton(
           onPressed: (){
             Navigator.of(context).push(new MaterialPageRoute(
                 builder: (context) {
@@ -34,7 +34,7 @@ class _MyPageState extends State<MyPage> {
                 )
               ),
               new Container(
-                child: new FlatButton(
+                child: new TextButton(
                   onPressed: (){},
                   child: new Icon(Icons.settings_overscan, size: 18.0),
                 ),
@@ -63,7 +63,7 @@ class _MyPageState extends State<MyPage> {
                 color: GlobalConfig.dark == true ? Colors.white10 : new Color(0xFFF5F5F5),
                 borderRadius: new BorderRadius.all(new Radius.circular(6.0))
             ),
-            child: new FlatButton(
+            child: new TextButton(
                 onPressed: (){},
                 child: new Container(
                   child: new ListTile(
@@ -91,7 +91,7 @@ class _MyPageState extends State<MyPage> {
               children: <Widget>[
                 new Container(
                   width: (MediaQuery.of(context).size.width - 6.0) / 4,
-                  child: new FlatButton (
+                  child: new TextButton (
                       onPressed: (){},
                       child: new Container(
                         height: 50.0,
@@ -119,7 +119,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                   width: (MediaQuery.of(context).size.width - 6.0) / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         height: 50.0,
@@ -147,7 +147,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                   width: (MediaQuery.of(context).size.width - 6.0) / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         height: 50.0,
@@ -175,7 +175,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                     width: (MediaQuery.of(context).size.width - 6.0) / 4,
-                    child: new FlatButton(
+                    child: new TextButton(
                         onPressed: (){},
                         child: new Container(
                           height: 50.0,
@@ -213,7 +213,7 @@ class _MyPageState extends State<MyPage> {
               children: <Widget>[
                 new Container(
                   width: MediaQuery.of(context).size.width / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         child: new Column(
@@ -236,7 +236,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                   width: MediaQuery.of(context).size.width / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         child: new Column(
@@ -259,7 +259,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                   width: MediaQuery.of(context).size.width / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         child: new Column(
@@ -282,7 +282,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                   width: MediaQuery.of(context).size.width / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         child: new Column(
@@ -313,7 +313,7 @@ class _MyPageState extends State<MyPage> {
               children: <Widget>[
                 new Container(
                   width: MediaQuery.of(context).size.width / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         child: new Column(
@@ -336,7 +336,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                   width: MediaQuery.of(context).size.width / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         child: new Column(
@@ -359,7 +359,7 @@ class _MyPageState extends State<MyPage> {
                 ),
                 new Container(
                   width: MediaQuery.of(context).size.width / 4,
-                  child: new FlatButton(
+                  child: new TextButton(
                       onPressed: (){},
                       child: new Container(
                         child: new Column(
@@ -398,7 +398,7 @@ class _MyPageState extends State<MyPage> {
         children: <Widget>[
           new Container(
             width: MediaQuery.of(context).size.width / 4,
-            child: new FlatButton(
+            child: new TextButton(
                 onPressed: (){},
                 child: new Container(
                   child: new Column(
@@ -421,7 +421,7 @@ class _MyPageState extends State<MyPage> {
           ),
           new Container(
             width: MediaQuery.of(context).size.width / 4,
-            child: new FlatButton(
+            child: new TextButton(
                 onPressed: (){},
                 child: new Container(
                   child: new Column(
@@ -444,7 +444,7 @@ class _MyPageState extends State<MyPage> {
           ),
           new Container(
             width: MediaQuery.of(context).size.width / 4,
-            child: new FlatButton(
+            child: new TextButton(
                 onPressed: (){
                   setState((){
                     if (GlobalConfig.dark == true) {
@@ -486,7 +486,7 @@ class _MyPageState extends State<MyPage> {
           ),
           new Container(
             width: MediaQuery.of(context).size.width / 4,
-            child: new FlatButton(
+            child: new TextButton(
                 onPressed: (){},
                 child: new Container(
                   child: new Column(
@@ -537,7 +537,7 @@ class _MyPageState extends State<MyPage> {
                       ),
                     ),
                     new Container(
-                      child: new FlatButton(
+                      child: new TextButton(
                           onPressed: (){},
                           child: new Text("拍一个", style: new TextStyle(color: Colors.blue),)
                       ),
@@ -648,7 +648,7 @@ class _MyPageState extends State<MyPage> {
                       ),
                     ),
                     new Container(
-                      child: new FlatButton(
+                      child: new TextButton(
                           onPressed: (){},
                           child: new Text("去往想法首页", style: new TextStyle(color: Colors.blue),)
                       ),
